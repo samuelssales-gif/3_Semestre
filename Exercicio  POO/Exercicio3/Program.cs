@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Exercicio3;
+Pessoa pessoa1 = new Pessoa();
+pessoa1.Nome = "Samuel";
+pessoa1.Idade = 20;
+Console.WriteLine("Dados da pessoa:");
+pessoa1.ExibirDados();
+pessoa1.AlterarIdade(25);
+Console.WriteLine("Dados da pessoa após alteração de idade:");
+pessoa1.ExibirDados();
+Console.WriteLine($"");
