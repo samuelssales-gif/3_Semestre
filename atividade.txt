@@ -1,0 +1,31 @@
+1/Questão 
+Na programação estruturada, você escreve uma receita de bolo (passo a passo). Na POO, você cria o "Objeto Forno", o "Objeto Ingrediente" e o "Objeto Cozinheiro", e define como eles conversam entre si para o bolo acontecer.
+
+2/Questão 
+Abstração: Focar só no essencial, ignorando detalhes inúteis.
+
+Encapsulamento: Esconder os dados e protegê-los com "trincos".
+
+Herança: Reaproveitar características de uma classe pai em classes filhas.
+
+Polimorfismo: Um mesmo comando que funciona de jeitos diferentes conforme o objeto.
+
+3/Questão 
+A classe é a receita de bolo, e o objeto é o bolo pronto que você pode comer.
+
+4/Questão 
+Imagine sua conta bancária. O número da conta é public (todos podem ver para transferir), mas o seu saldo e senha são private (só o sistema do banco altera/valida).
+
+5/Questão 
+O Atributo é a gaveta aberta onde qualquer um mexe. A Propriedade é o balcão de atendimento: você pede o que quer, e a classe decide se te entrega ou se aceita o que você trouxe.
+
+6/Questão
+A interface funciona como um "contrato". Ela diz o que a classe deve fazer, mas não como. Assim, você consegue ter os benefícios da herança múltipla (ter vários comportamentos) sem os problemas de conflito de código.
+
+7/Questão
+Sobrecarga (Compilação): Mesmo nome, parâmetros diferentes na mesma classe.
+
+Sobrescrita (Execução): Mesmo nome e parâmetros, mas a filha muda o comportamento da classe pai.
+
+8/Questão  
+Use classe abstrata para identidade (o que o objeto é) e interface para capacidade (o que o objeto faz).
